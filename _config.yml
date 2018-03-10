@@ -1,0 +1,60 @@
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "canidam.github.io" # the base hostname & protocol for your site.
+
+paginate: 6 #articles per page
+paginate_path: /blog/page:num #makes pagination working
+
+# header text
+title: Vinny
+header: A journey of Python software developer
+
+# for welcome page
+# to replace image go to index.html
+email:
+  address: "user@example.com"
+  text: "user (at) example.com"
+
+# disqus comment
+disqus:
+    shortname: "vinny-2" #your disqus comment short name
+
+# google analytics
+google:
+    tracking-id: "" #your tracking id here
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  - jekyll-gist
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+permalink: /posts/:title
+
+author:
+  name: 'Chen'
+  email: 'canidam@gmail.com'
+  website: 'https://canidam.github.io'
+  profile: '/assets/img/profile.gif'
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

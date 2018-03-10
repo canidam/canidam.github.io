@@ -1,0 +1,20 @@
+text: |
+
+  I'm a software engineer in Python, and I've been self-learning the language for half-year now.
+  Before that I've taken multiple courses online on computer-science subjects. I build my own path,
+  covering various technology related subjects.
+  I've decided to document my studies, as I summary subjects or interesting challenges
+  I encounter. Someone might find it useful. The community helps me a lot through
+  my journey, and the purpose of this blog is to try give something back to the community.
+
+  I got the inspiration from the multiple blogs I see lately. This blog runs on
+  Jekyll (using *[Atum-rb][a]* theme). I have no experience in Ruby, CSS, HTML or any web-related
+  language at the time of this writing, so all of this is something new for me.
+
+  This blog is a pile of things I encounter on my learning endeavors. When I'm learning
+  something new, or find a good question on [stackoverflow][1] I can't answer, I dig to the bones
+  of the subject and summary it for myself. I decided to share my 'homework' on this blog,
+  as it might help others plus the benefit of having it all tracked on one place.
+
+  [1]: http://www.stackoverflow.com
+  [a]: https://github.com/kirqe/autm-rb
